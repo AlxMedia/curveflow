@@ -5,7 +5,7 @@ Version: 1.0.0
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.0
-Description: <a href="http://alx.media/themes/curveflow/">Curveflow</a> is a flexible blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique design. Set sidebar to the left or right - or no sidebar at all. Pick sidebar colors, header color and primary accent as you wish. Demo: http://demo.alx.media/x/?theme=Curveflow
+Description: <a href="http://alx.media/themes/curveflow/">Curveflow</a> is a flexible blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique design. Set sidebar to the left or right - or no sidebar at all. Pick sidebar colors, header color and accents as you wish. Demo: http://demo.alx.media/x/?theme=Curveflow
 Author: Alexander Agnarson
 Author URI: http://alx.media
 Tags: blog, news, entertainment, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, footer-widgets, wide-blocks
@@ -695,8 +695,8 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 #profile-name { color: #fff; font-size: 22px; font-weight: 600; line-height: 1.2em; margin-top: 20px; margin-bottom: 10px; }
 #profile-description { font-size: 16px; line-height: 1.6em; font-weight: 300; color: rgba(255,255,255,0.5); position: relative; }
 #profile-description:before { content: ""; position: absolute; top: 0; right: 0; left: 0; height: 2px; }
-#profile-description a { color: rgba(0,0,0,0.9); }
-#profile-description a:hover { color: rgba(0,0,0,0.6); }
+#profile-description a { color: rgba(255,255,255,0.75); }
+#profile-description a:hover { color: rgba(255,255,255,0.6); }
 
 /*  header : search
 /* ------------------------------------ */
@@ -713,7 +713,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .toggle-search #svg-close { display: none; }
 .toggle-search.active #svg-search { display: none; }
 .toggle-search.active #svg-close { display: block; fill: rgba(255,255,255,0.5); }
-.toggle-search:focus #svg-search { fill: rgba(255,255,255,0.7); }
+.toggle-search:focus #svg-search { fill: #fff; }
 .toggle-search:focus #svg-close { fill: #fff; }
 
 
@@ -1258,6 +1258,7 @@ body.search .type-page .flow-meta { display: none; }
 .widget { color: rgba(255,255,255,0.6); font-size: 14px; }
 .widget a { color: rgba(255,255,255,0.6); }
 .widget a:hover { color: #fff; }
+.widget h2 { color: #fff; }
 .widget > h3 { color: #fff; font-size: 16px; font-weight: 600; margin: 0 0 10px; padding: 0; }
 .widget > h3 a,
 .widget > h3 a:hover { color: #fff; }

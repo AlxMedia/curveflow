@@ -8,7 +8,7 @@ Tags: blog, news, entertainment, one-column, two-columns, right-sidebar, left-si
 
 == Description ==
 
-Curveflow is a flexible blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique design. Set sidebar to the left or right - or no sidebar at all. Set sidebar to the left or right - or no sidebar at all. Pick sidebar colors, header color and primary accent as you wish. Demo: http://demo.alx.media/x/?theme=Curveflow
+Curveflow is a flexible blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique design. Set sidebar to the left or right - or no sidebar at all. Set sidebar to the left or right - or no sidebar at all. Pick sidebar colors, header color and accents as you wish. Demo: http://demo.alx.media/x/?theme=Curveflow
 
 == Installation ==
 
@@ -73,10 +73,13 @@ License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io
 
 Content images
-1. https://stocksnap.io/photo/X - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/13LKG0AGI0 - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/3VLGQNBZP2 - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/693PZB7YZT - CC0 1.0 Universal (CC0 1.0)
+4. https://stocksnap.io/photo/76X7PJUIMF - CC0 1.0 Universal (CC0 1.0)
 
 Sidebar images
-1. https://stocksnap.io/photo/X - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/IPXQTD44G8 - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
 
