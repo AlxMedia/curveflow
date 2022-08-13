@@ -83,5 +83,8 @@ Sidebar images
 
 == Changelog ==
 
-= 1.0.0 - 2022-08-14 =
+= 1.0.1 - 2022-08-13 =
+* Fix undefined variable: post_id in content.php
+
+= 1.0.0 - 2022-08-13 =
 * Initial release
