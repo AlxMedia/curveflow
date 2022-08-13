@@ -681,7 +681,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .s2 .social-links .social-tooltip:hover:before { top: 24px; left: 45px; right: auto; border-color: transparent #333; border-width: 5px 5px 5px 0; }
 
 .site-title { font-size: 28px; font-weight: 600; letter-spacing: -0.5px; float: left; line-height: 60px; padding: 10px 0 10px 0; position: relative; z-index: 2; }
-.site-title a { display: block; color: #333; max-width: 100%; }
+.site-title a { display: block; color: #222; max-width: 100%; }
 .site-title a img { display: block; max-width: 100%; max-height: 60px; height: auto; padding: 0; margin: 0 auto; -webkit-border-radius: 0; border-radius: 0; }
 .site-description { font-size: 15px; font-weight: 300; color: rgba(0,0,0,0.5); float: left; margin: 28px 0 0 20px; position: relative; z-index: 2; }
 .site-header { background: #eee; }
@@ -706,7 +706,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .toggle-search.active i:before { content: "\f00d"; }
 .search-expand { display: none; background: #fff; border-radius: 20px; padding: 22px; position: absolute; top: 0; left: 80px; width: 236px; z-index: 10; }
 .search-expand-inner {  }
-.search-expand .themeform input { background: #fff; width: 100%; border: 1px solid #ddd; }
+.search-expand .themeform input { background: #fff; width: 100%; border: 0; }
 .search-expand .themeform input:focus { border-color: #ccc; }
 .toggle-search.active { padding-top: 28px; padding-bottom: 29px; }
 .toggle-search .svg-icon { fill: rgba(255,255,255,0.6); margin: 0 auto; }
@@ -995,7 +995,7 @@ body.category.paged .flow-featured { display: none; }
 	.flow-category { font-size: 12px; margin-right: 50px; }
 	.flow-title { font-size: 20px; margin-right: 50px; }
 	.has-thumbnail .flow-title { margin-right: 50px; }
-	.flow-excerpt { font-size: 14px; }
+	.flow-excerpt { font-size: 13px; }
 	.flow-author { width: 24px; }
 	.flow-date,
 	.flow-comments { margin-top: 3px; }
