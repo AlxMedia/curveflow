@@ -706,7 +706,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .toggle-search.active i:before { content: "\f00d"; }
 .search-expand { display: none; background: #fff; border-radius: 20px; padding: 22px; position: absolute; top: 0; left: 80px; width: 236px; z-index: 10; }
 .search-expand-inner {  }
-.search-expand .themeform input { background: #fff; width: 100%; border: 0; }
+.search-expand .themeform input { background: #fff; width: 100%; border: 1px solid #ddd; }
 .search-expand .themeform input:focus { border-color: #ccc; }
 .toggle-search.active { padding-top: 28px; padding-bottom: 29px; }
 .toggle-search .svg-icon { fill: rgba(255,255,255,0.6); margin: 0 auto; }

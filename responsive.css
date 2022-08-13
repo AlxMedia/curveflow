@@ -96,7 +96,7 @@
 	.toggle-search:focus #svg-close { fill: #333; }
 	.search-expand { top: -1px; left: 0; width: 100%; padding: 0; border-radius: 20px; overflow: hidden; }
 	.search-expand-inner { padding: 0; width: 100%; }
-	.search-expand .themeform.searchform div input { border-radius: 0; padding: 22px 22px 22px 60px; }
+	.search-expand .themeform.searchform div input { border-radius: 0; border: 0; padding: 22px 22px 22px 60px; }
 	.s2 .themeform.searchform div:after { top: 22px; left: 26px; }
 	#nav-header.nav-container { margin-top: 0; }
 	
