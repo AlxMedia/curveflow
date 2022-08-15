@@ -83,8 +83,11 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.2 - 2022-08-15 =
+* Fixed styling options with 1px wrapper border top
+
 = 1.0.1 - 2022-08-13 =
-* Fix undefined variable: post_id in content.php
+* Fixed undefined variable: post_id in content.php
 
 = 1.0.0 - 2022-08-13 =
 * Initial release

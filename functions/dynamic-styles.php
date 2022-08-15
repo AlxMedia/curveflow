@@ -118,7 +118,7 @@ if ( ! function_exists( 'curveflow_dynamic_css' ) ) {
 			// header color
 			if ( get_theme_mod('color-header','#ffffff') != '#ffffff' ) {
 				$styles .= '
-#wrapper { border-top-color: '.esc_attr( get_theme_mod('color-header') ).'; }
+#wrapper { border-top: 0; }
 #header { background: '.esc_attr( get_theme_mod('color-header') ).'; }
 .site-title a { color: #fff; }
 .site-description { color: rgba(255,255,255,0.5); }
@@ -175,6 +175,7 @@ if ( ! function_exists( 'curveflow_dynamic_css' ) ) {
 			if ( get_theme_mod('color-background','#eeeeee') != '#eeeeee' ) {
 				$styles .= '
 body { background: '.esc_attr( get_theme_mod('color-background') ).'; }
+#wrapper { border-top: 0; }
 				'."\n";
 			}
 			// featured 2 color
