@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Curveflow\n"
-"POT-Creation-Date: 2022-08-13 17:16+0200\n"
+"POT-Creation-Date: 2022-08-15 12:37+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -760,26 +760,42 @@ msgid "Header Color"
 msgstr ""
 
 #: functions/theme-options.php:708
-msgid "Sidebar Color"
+msgid "Layout Box Color"
 msgstr ""
 
 #: functions/theme-options.php:716
-msgid "Social Sidebar Color"
+msgid "Layout Box Border Color"
 msgstr ""
 
 #: functions/theme-options.php:724
+msgid "Layout Box Border Width"
+msgstr ""
+
+#: functions/theme-options.php:725
+msgid "The border around the website"
+msgstr ""
+
+#: functions/theme-options.php:738
+msgid "Sidebar Color"
+msgstr ""
+
+#: functions/theme-options.php:746
+msgid "Social Sidebar Color"
+msgstr ""
+
+#: functions/theme-options.php:754
 msgid "Background Color"
 msgstr ""
 
-#: functions/theme-options.php:732
+#: functions/theme-options.php:762
 msgid "Featured 2 Color"
 msgstr ""
 
-#: functions/theme-options.php:740
+#: functions/theme-options.php:770
 msgid "Featured 3 Color"
 msgstr ""
 
-#: functions/theme-options.php:748
+#: functions/theme-options.php:778
 msgid "Featured 4 Color"
 msgstr ""
 

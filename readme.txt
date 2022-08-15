@@ -83,6 +83,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.3 - 2022-08-15 =
+* Added additional styling options
+
 = 1.0.2 - 2022-08-15 =
 * Fixed styling options with 1px wrapper border top
 

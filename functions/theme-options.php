@@ -701,6 +701,36 @@ Kirki::add_field( 'curveflow_theme', array(
 	'section'		=> 'styling',
 	'default'		=> '#ffffff',
 ) );
+// Styling: Layout Box Color
+Kirki::add_field( 'curveflow_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-layout-box',
+	'label'			=> esc_html__( 'Layout Box Color', 'curveflow' ),
+	'section'		=> 'styling',
+	'default'		=> '#222222',
+) );
+// Styling: Layout Box Border Color
+Kirki::add_field( 'curveflow_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-layout-box-border',
+	'label'			=> esc_html__( 'Layout Box Border Color', 'curveflow' ),
+	'section'		=> 'styling',
+	'default'		=> '#000000',
+) );
+// Styling: Layout Box Border Width
+Kirki::add_field( 'curveflow_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'layout-box-border-width',
+	'label'			=> esc_html__( 'Layout Box Border Width', 'curveflow' ),
+	'description'	=> esc_html__( 'The border around the website', 'curveflow' ),
+	'section'		=> 'styling',
+	'default'		=> '8',
+	'choices'     => array(
+		'min'	=> '0',
+		'max'	=> '30',
+		'step'	=> '1',
+	),
+) );
 // Styling: Sidebar Color
 Kirki::add_field( 'curveflow_theme', array(
 	'type'			=> 'color',

@@ -159,6 +159,24 @@ if ( ! function_exists( 'curveflow_dynamic_css' ) ) {
 
 				'."\n";
 			}
+			// layout box color
+			if ( get_theme_mod('color-layout-box','#222222') != '#222222' ) {
+				$styles .= '
+#wrapper-inner { background: '.esc_attr( get_theme_mod('color-layout-box') ).'; }
+				'."\n";
+			}
+			// layout box border color
+			if ( get_theme_mod('color-layout-box','#000000') != '#000000' ) {
+				$styles .= '
+#wrapper-inner { border-color: '.esc_attr( get_theme_mod('color-layout-box-border') ).'; }
+				'."\n";
+			}
+			// layout box border width
+			if ( get_theme_mod('layout-box-border-width','8') != '8' ) {
+				$styles .= '
+#wrapper-inner { border-width: '.esc_attr( get_theme_mod('layout-box-border-width') ).'px; }
+				'."\n";
+			}
 			// sidebar
 			if ( get_theme_mod('color-sidebar','#222222') != '#222222' ) {
 				$styles .= '
