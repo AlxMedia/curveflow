@@ -1,7 +1,7 @@
 /*
 Theme Name: Curveflow
 Theme URI: http://alx.media/themes/curveflow/
-Version: 1.0.4
+Version: 1.0.5
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.0
@@ -684,8 +684,8 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .site-title a { display: block; color: #222; max-width: 100%; }
 .site-title a img { display: block; max-width: 100%; max-height: 60px; height: auto; padding: 0; margin: 0 auto; -webkit-border-radius: 0; border-radius: 0; }
 .site-description { font-size: 15px; font-weight: 300; color: rgba(0,0,0,0.5); float: left; margin: 28px 0 0 20px; position: relative; z-index: 2; }
-.site-header { background: #eee; }
-.site-image { display: block; margin: 0 auto; max-height: 400px; }
+.site-header {  }
+.site-image { border-radius: 20px; display: block; margin: 0 auto; max-height: 400px; }
 
 #profile { padding: 30px; position: relative; position: relative; border-bottom: 1px solid rgba(255,255,255,0.06); }
 #profile:after { content:""; display: block; height: 80px; width: 100%; position: absolute; top: 0; left: 0; right: 0; }

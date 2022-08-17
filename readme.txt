@@ -83,6 +83,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.5 - 2022-08-17 =
+* Fixed header image styling
+
 = 1.0.4 - 2022-08-17 =
 * Fixed pencil icon appearing behind thumbnails
 * Fixed thumbnail sizes for non-regenerated images
