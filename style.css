@@ -874,9 +874,9 @@ body.single .format-video .flow-content,
 body.single .format-audio .flow-content,
 body.single .format-gallery .flow-content { padding-right: 100px; }
 
-.flow .flow-icon { color: rgba(0,0,0,0.15); font-size: 32px; line-height: 32px; position: absolute; right: 64px; margin-top: -16px; top: 50%; z-index: 40; }
+.flow .flow-icon { color: rgba(0,0,0,0.1); font-size: 32px; line-height: 32px; position: absolute; right: 64px; margin-top: -16px; top: 50%; z-index: 40; }
 .flow-thumbnail { width: 100px; height: auto; position: absolute; right: 30px; top: 50%; margin-top: -50px; z-index: 41; }
-.flow-thumbnail img { display: block; border-radius: 100%; }
+.flow-thumbnail img { width: 100px; height: 100px; display: block; border-radius: 100%; }
 .flow-thumbnail a { position: relative; display: block; }
 .flow:hover .thumb-icon { background: #fff; color: #333; }
 .flow-category { color: rgba(0,0,0,0.3); font-size: 13px; text-transform: uppercase; margin-bottom: 6px; }
@@ -990,6 +990,7 @@ body.category.paged .flow-featured { display: none; }
 	.flow:before { bottom: -100px; height: 100px; width: 50px; border-top-right-radius: 50px; }
 	.flow .flow-icon { font-size: 24px; top: 28px; right: 32px; margin: 0; }
 	.flow-thumbnail { top: 20px; right: 20px; width: 50px; margin: 0; }
+	.flow-thumbnail img { width: 50px; height: 50px; }
 	.flow-content { padding: 20px; border-radius: 0 0 0 50px; }
 	.has-thumbnail .flow-content { padding-right: 20px; }
 	.flow-category { font-size: 12px; margin-right: 50px; }

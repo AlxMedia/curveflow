@@ -75,7 +75,7 @@ if ( ! function_exists( 'curveflow_setup' ) ) {
 		// Thumbnail sizes
 		add_image_size( 'curveflow-small', 200, 200, true );
 		add_image_size( 'curveflow-medium', 520, 293, true );
-		add_image_size( 'curveflow-large', 780, 440, true );
+		add_image_size( 'curveflow-large', 700, 394, true );
 		
 		// Thumbnail sizes custom widgets
 		add_image_size( 'alx-small', 200, 200, true );

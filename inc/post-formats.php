@@ -23,7 +23,7 @@
 			<div class="slick-image-slide" id="slide-<?php the_ID(); ?>">
 				<?php foreach ( $images as $image ): ?>
 					<div>
-						<?php $imageid = wp_get_attachment_image_src($image->ID,'curveflow-large-h'); ?>
+						<?php $imageid = wp_get_attachment_image_src($image->ID,'large'); ?>
 						<img src="<?php echo esc_attr( $imageid[0] ); ?>" alt="<?php echo esc_attr( $image->post_title ); ?>">
 						
 						<?php if ( $image->post_excerpt ): ?>

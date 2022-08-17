@@ -85,6 +85,7 @@ Sidebar images
 
 = 1.0.4 - 2022-08-17 =
 * Fixed pencil icon appearing behind thumbnails
+* Fixed thumbnail sizes for non-regenerated images
 
 = 1.0.3 - 2022-08-15 =
 * Added additional styling options
