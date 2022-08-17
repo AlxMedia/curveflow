@@ -2,8 +2,6 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('flow'); ?>>
 
-	<i class="fas fa-pencil-alt flow-icon"></i>
-	
 	<?php if ( has_post_thumbnail() ): ?>
 		<div class="flow-thumbnail">
 			<a href="<?php the_permalink(); ?>">
@@ -13,6 +11,8 @@
 				<?php if ( is_sticky() ) echo'<span class="thumb-icon small"><i class="fas fa-star"></i></span>'; ?>
 			</a>
 		</div>
+	<?php else: ?>
+		<i class="fas fa-pencil-alt flow-icon"></i>
 	<?php endif; ?>
 	
 	<div class="flow-inner <?php if ( has_post_thumbnail() ): ?>has-thumbnail<?php endif; ?>">
