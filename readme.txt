@@ -83,6 +83,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.6 - 2022-08-18 =
+* Fixed undefined variable: post_id in single.php
+
 = 1.0.5 - 2022-08-17 =
 * Fixed header image styling
 

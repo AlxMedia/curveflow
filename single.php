@@ -50,7 +50,7 @@
 							<?php endif; ?>
 							<li class="flow-date"><i class="far fa-calendar"></i><?php the_time( get_option('date_format') ); ?></li>
 							<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
-								<?php $number = get_comments_number( $post_id ); if ( $number > 0 ) { ?>
+								<?php $number = get_comments_number( $post->ID ); if ( $number > 0 ) { ?>
 									<li class="flow-comments"><a href="<?php comments_link(); ?>"><i class="far fa-comment"></i><span><?php comments_number( '0', '1', '%' ); ?></span></a></li>
 								<?php } ?>
 							<?php endif; ?>
