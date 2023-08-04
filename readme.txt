@@ -83,6 +83,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.7 - 2023-08-04 =
+* Updated to Font Awesome 6.4.2
+
 = 1.0.6 - 2022-08-18 =
 * Fixed undefined variable: post_id in single.php
 
